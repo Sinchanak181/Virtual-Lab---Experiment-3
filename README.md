@@ -115,7 +115,46 @@ An ideal operational amplifier has the following properties:
 
 - **Infinite Slew Rate**  
   The output voltage changes instantly according to changes in input voltage.
+  
+## 🔷 Op-Amp IC 741 – Pin Configuration
 
+The pin configuration of IC 741 general purpose operational amplifier is shown in the pin diagram.
+
+- The reference point of the IC is the **notch at the top**.
+- The pins are numbered in a **counter-clockwise direction**, starting from the notch.
+
+---
+
+### 📌 Pin Description
+
+![Block Diagram Setup](pin.png)
+
+- **Pin 1 and Pin 5 – Offset Null Pins**
+  - Used for offset voltage adjustment.
+  - The op-amp is very sensitive, so sometimes output may appear even without input.
+  - To eliminate this unwanted output, offset null pins are provided.
+  - These pins are usually connected to a potentiometer.
+  - The potentiometer is adjusted to make the output voltage at **Pin 6 equal to zero**.
+
+- **Pin 2 – Inverting Input**
+  - Input signal applied here produces an output of opposite polarity at Pin 6.
+
+- **Pin 3 – Non-Inverting Input**
+  - Input signal applied here produces an output of same polarity at Pin 6.
+
+- **Pin 4 – Negative Supply (VEE)**
+  - Connected to ground or negative voltage (typically -3V to -18V).
+
+- **Pin 7 – Positive Supply (VCC)**
+  - Connected to the positive voltage supply.
+
+- **Pin 6 – Output Pin**
+  - The amplified output signal is obtained from this pin.
+
+- **Pin 8 – No Connection (NC)**
+  - This pin is not internally connected.
+ 
+  
 # 1️⃣ Input Bias Current (Inverting Terminal)
 
 ### Formula Used

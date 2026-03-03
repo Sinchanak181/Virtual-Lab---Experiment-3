@@ -24,6 +24,7 @@ To study and determine the following parameters of IC 741 operational amplifier:
 - CRO (Cathode Ray Oscilloscope)
 - Digital Multimeter
 - Resistors
+- Capacitors
 - Connecting Wires
 
 ---
@@ -67,7 +68,7 @@ IB = Vo / Rf
 
 ### 🔽 Circuit Screenshot
 
-![Inverting Bias Current Setup](images/inverting_bias_current.png)
+![Inverting Bias Current Setup](inverting_bias_current.png)
 
 ---
 
@@ -85,7 +86,7 @@ Iio = Vo / Rf
 
 ### 🔽 Circuit Screenshot
 
-![Input Offset Current Setup](images/input_offset_current.png)
+![Input Offset Current Setup](input_offset_current.png)
 
 ---
 
@@ -106,7 +107,7 @@ Maximum Vio ≈ 6mV
 
 ### 🔽 Circuit Screenshot
 
-![Input Offset Voltage Setup](images/input_offset_voltage.png)
+![Input Offset Voltage Setup](input_offset_voltage.png)
 
 ---
 
@@ -134,9 +135,9 @@ SR = ΔV / Δt
 
 ### 🔽 Circuit Screenshot
 
-![Slew Rate Setup](images/slew_rate.png)
+![Slew Rate Setup](slew_rate.png)
 
-![Slew Rate Setup](images/slew_rate1.png)
+![Slew Rate Setup](slew_rate1.png)
 
 ---
 

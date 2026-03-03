@@ -31,9 +31,14 @@ To study and determine the following parameters of IC 741 operational amplifier:
 
 ## 📖 Theory
 
+![Op amp Symbol Setup](op_amp_symbol.png.jpg)
+
+
 An operational amplifier (Op-Amp) is a high gain differential amplifier that amplifies the voltage difference between two input terminals.
 
 ### Internal Functional Blocks
+
+![Block Diagram Setup](block_diagram.png.jpg)
 
 1. **Input Stage** – Differential amplifier with high input impedance  
 2. **Intermediate Stage** – Provides additional gain  

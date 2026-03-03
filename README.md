@@ -1,4 +1,4 @@
-<img width="555" height="541" alt="image" src="https://github.com/user-attachments/assets/0a27a5c3-0183-42e3-8c9d-d34123b3b359" /># EXPERIMENT – 03  
+ EXPERIMENT – 03  
 ## Characteristics and Parameters of IC 741 Operational Amplifier
 
 ---

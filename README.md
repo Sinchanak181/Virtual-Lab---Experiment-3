@@ -197,7 +197,7 @@ Click on **"Result"** and enter the calculated value.
 
 ### 🔽 Circuit Screenshot
 
-![Inverting Bias Current Setup](noninverting_bias_current.png.jpg)
+![Inverting Bias Current Setup](non_inverting_bias_current.png.jpg)
 
 ---
 # B. Measurement of Input Offset Current (Iio)

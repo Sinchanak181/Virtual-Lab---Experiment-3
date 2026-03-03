@@ -136,6 +136,8 @@ SR = ΔV / Δt
 
 ![Slew Rate Setup](images/slew_rate.png)
 
+![Slew Rate Setup](images/slew_rate1.png)
+
 ---
 
 ## 📊 Result

@@ -1,4 +1,4 @@
- EXPERIMENT – 03  
+## EXPERIMENT – 03  
 ## Characteristics and Parameters of IC 741 Operational Amplifier
 
 ---
@@ -123,8 +123,6 @@ The pin configuration of IC 741 general purpose operational amplifier is shown i
 - The reference point of the IC is the **notch at the top**.
 - The pins are numbered in a **counter-clockwise direction**, starting from the notch.
 
----
-
 ### 📌 Pin Description
 
 ![Block Diagram Setup](pin.png)
@@ -153,7 +151,7 @@ The pin configuration of IC 741 general purpose operational amplifier is shown i
 
 - **Pin 8 – No Connection (NC)**
   - This pin is not internally connected.
- 
+--- 
   
 # A. Measurement of Input Bias Current (IB)
 

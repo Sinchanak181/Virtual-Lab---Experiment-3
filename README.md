@@ -1,4 +1,4 @@
-# EXPERIMENT – 03  
+<img width="555" height="541" alt="image" src="https://github.com/user-attachments/assets/0a27a5c3-0183-42e3-8c9d-d34123b3b359" /># EXPERIMENT – 03  
 ## Characteristics and Parameters of IC 741 Operational Amplifier
 
 ---
@@ -155,18 +155,25 @@ The pin configuration of IC 741 general purpose operational amplifier is shown i
   - This pin is not internally connected.
  
   
-# 1️⃣ Input Bias Current (Inverting Terminal)
+# A. Measurement of Input Bias Current (IB)
 
-### Formula Used
+## a) Measurement of Inverting Bias Current (IB₁)
 
-IB = Vo / Rf
-
-### Procedure
-
-1. Connect the IC 741 as per circuit diagram.
-2. Apply required DC supply.
-3. Measure output voltage.
-4. Calculate input bias current.
+![Inverting Bias Current Setup](inverting_bias_current_pro.png)
+### Step 1:
+Click on the **Components** button and place all required components on the table.
+### Step 2:
+Make the connections exactly as shown in the circuit diagram or connection table.
+### Step 3:
+Click on **"Check Connection"** to verify the circuit.  
+If the connections are correct, click on **"Show Output Voltage"** to see the output on DMM.
+### Step 4:
+Calculate the inverting bias current using the formula:
+IB₁ = Vo / Rf
+### Step 5:
+Click on **"Result"** and enter the calculated value.
+### Step 6:
+Click on **"Reset"** and proceed to measure the non-inverting bias current.
 
 ### 🔽 Circuit Screenshot
 
@@ -174,67 +181,95 @@ IB = Vo / Rf
 
 ---
 
-# 2️⃣ Input Offset Current
+## b) Measurement of Non-Inverting Bias Current (IB₂)
 
-### Definition
+![NonInverting Bias Current Setup](noninverting_bias_current_pro.png)
+### Step 1:
+Click on the **Components** button and place the required components.
+### Step 2:
+Make the connections as per the circuit diagram or connection table.
+### Step 3:
+Click on **"Check Connection"**.  
+If correct, click on **"Show Output Voltage"** to view output on DMM.
+### Step 4:
+Calculate the non-inverting bias current using:
+IB₂ = Vo / R1
+### Step 5:
+Click on **"Result"** and enter the calculated value.
 
-Input offset current is the difference between bias currents at two input terminals.
+### 🔽 Circuit Screenshot
 
-Iio = | IB1 − IB2 |
+![Inverting Bias Current Setup](noninverting_bias_current.png.jpg)
 
-### Formula
+---
+# B. Measurement of Input Offset Current (Iio)
 
+![Input Offset Current Setup](input_offset_current_pro.png.jpg)
+### Step 1:
+Click on the **Components** button and place the components on the table.
+### Step 2:
+Make connections as per the circuit diagram or connection table.
+### Step 3:
+Click on **"Check Connection"**.  
+If correct, click on **"Show Output Voltage"** to view Vo on DMM.
+### Step 4:
+Calculate the input offset current using:
 Iio = Vo / Rf
-
+### Step 5:
+Click on **"Result"** and enter the calculated value.
 ### 🔽 Circuit Screenshot
 
 ![Input Offset Current Setup](input_offset_current.png.jpg)
 
 ---
 
-# 3️⃣ Input Offset Voltage
+# C. Measurement of Input Offset Voltage (Vio)
 
-### Definition
-
-Input offset voltage is the small DC voltage required between input terminals to make output zero.
-
-For IC 741:
-Maximum Vio ≈ 6mV
-
-### Procedure
-
-1. Configure the circuit.
-2. Adjust potentiometer to null output.
-3. Measure voltage across input terminals.
-
+![Input Offset Voltage Setup](input_offset_voltage_pro.png.jpg)
+### Step 1:
+Click on the **Components** button and place all required components on the table.
+### Step 2:
+Make the connections exactly as shown in the circuit diagram or connection table.
+### Step 3:
+Click on **"Check Connection"** to verify the circuit.  
+If correct, click on **"Show Output Voltage"** to view output (Vo) on DMM.
+### Step 4:
+Calculate the input offset voltage using the formula:
+Vio = (Vo − IioRf) / (1 + Rf/Ri)
+### Step 5:
+Click on **"Result"** and enter the calculated value.
 ### 🔽 Circuit Screenshot
 
 ![Input Offset Voltage Setup](input_offset_voltage.png.jpg)
 
 ---
 
-# 4️⃣ Slew Rate
+# D. Measurement of Slew Rate (S.R.)
 
-### Definition
-
-Slew Rate (SR) is the maximum rate of change of output voltage.
-
-SR = (dVo/dt) max
-
-Unit: V/µs
-
-For IC 741:
-Typical SR ≈ 0.5 V/µs
-
-### Procedure
-
-1. Apply square wave input.
-2. Observe output on CRO.
-3. Measure rise time.
-4. Calculate slew rate.
-
-SR = ΔV / Δt
-
+![Slew Rate Setup](slew_rate_pro.png.jpg)
+### Step 1:
+Click on the **Components** button and place the required components on the table.
+### Step 2:
+Make the connections as per the circuit diagram or connection table.
+### Step 3:
+Take the input signal from the red terminal of the A.F. Oscillator.  
+Connect the other terminal to ground.
+### Step 4:
+Feed the input signal to **Channel CH1 of the CRO**.  
+Feed the output of the Op-Amp (Pin 6) to **Channel CH2 of the CRO**.
+### Step 5:
+Click on **"Check Connection"**.  
+If correct, click on **"Show Output Voltage"**.
+### Step 6:
+Increase the frequency of the input signal using the dial on the A.F. Oscillator until the output waveform becomes triangular.  
+This frequency is the required **fmax (in KHz)**.
+### Step 7:
+Calculate the slew rate using the formula:
+S.R. = 2πfmaxVm / 10⁶  V/µs
+Where:
+Vm = 3V (Amplitude of input signal)
+### Step 8:
+Click on **"Result"** and enter the calculated value.
 ### 🔽 Circuit Screenshot
 
 ![Slew Rate Setup](slew_rate.png.jpg)
@@ -243,19 +278,60 @@ SR = ΔV / Δt
 
 ---
 
-## 📊 Result
+# 📊 Result
 
-The parameters of IC 741 such as input bias current, input offset current, input offset voltage and slew rate were measured successfully. The obtained values are approximately close to the standard datasheet values.
+The important parameters of the IC 741 operational amplifier were successfully measured using the virtual lab setup.
+
+The following characteristics were determined:
+
+- Inverting Bias Current (IB₁)
+- Non-Inverting Bias Current (IB₂)
+- Average Input Bias Current (IB)
+- Input Offset Current (Iio)
+- Input Offset Voltage (Vio)
+- Slew Rate (SR)
+
+From the experiment, it was observed that:
+
+- The input bias currents were in the nanoampere range, which indicates that the IC 741 draws very small input current.
+- The input offset current was also very small, showing that the two input terminals are closely matched but not perfectly identical.
+- The input offset voltage was found to be in millivolt range, which explains why a small output appears even when no input is applied.
+- The slew rate measurement showed that the output does not change instantaneously with the input at higher frequencies.
+- The practical slew rate value was found to be approximately close to the standard value of 0.5 V/µs for IC 741.
+
+The experimental values were reasonably close to the theoretical and datasheet values, confirming proper functioning of the op-amp.
 
 ---
 
-## ✅ Conclusion
+# ✅ Conclusion
 
-The characteristics and performance parameters of IC 741 operational amplifier were studied and verified using virtual lab simulation. The experimental results validate the theoretical concepts of operational amplifier operation.
+In this experiment, the characteristics and performance parameters of the IC 741 operational amplifier were studied in detail.
 
----
+We practically observed that:
 
-## 📎 References
+- An op-amp does not behave ideally in real conditions.
+- Small bias currents flow into the input terminals.
+- A small offset voltage exists even when no input is applied.
+- The output cannot change infinitely fast due to limited slew rate.
 
-- IC 741 Datasheet
-- Virtual Lab Simulation
+These practical limitations explain why real operational amplifiers differ from ideal op-amp assumptions.
+
+The experiment also helped in understanding:
+
+- The internal behavior of differential inputs.
+- The importance of offset correction.
+- The effect of slew rate in high frequency applications.
+- How theoretical formulas relate to practical measurements.
+
+Overall, the experiment provided a clear understanding of the real-world behavior of IC 741 and validated the theoretical concepts of operational amplifiers.
+
+Hence, the characteristics and parameters of IC 741 were successfully studied and verified.
+
+## 📚 References
+
+- R. A. Gayakwad, *Operational Amplifiers and Linear ICs*, 4th Edition, Pearson Education.
+- Sergio Franco, *Design with Operational Amplifiers and Analog Integrated Circuits*, Tata McGraw Hill.
+- D. Roy Choudhury & Shail Jain, *Linear Integrated Circuits*, New Age International.
+- V.K. Mehta & Rohit Mehta, *Principles of Electronics*, S. Chand.
+- David A. Bell, *Operational Amplifiers and Linear ICs*, Oxford University Press.
+- Virtual Labs – Analog and Digital Electronics II, IIT.

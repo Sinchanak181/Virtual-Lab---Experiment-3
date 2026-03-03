@@ -33,8 +33,9 @@ To study and determine the following parameters of IC 741 operational amplifier:
 
 ![Op amp Symbol Setup](op_amp_symbol.png.jpg.png)
 
-
-An operational amplifier (Op-Amp) is a high gain differential amplifier that amplifies the voltage difference between two input terminals.
+INTRODUCTION 
+An operational amplifier is a direct coupled high gain amplifier usually consisting of one or more differential amplifiers and followed by a level translator and an output stage. The output stage is generally a push-pull or push-pull complementary-symmetry pair. An operational amplifier is available as a single integrated circuit package.
+The operational amplifier is a versatile device that can be used to amplify dc as well as ac input signals and was originally designed for performing mathematical operations such as addition, subtraction, multiplication and integration. Thus, the word operational amplifier stems for its original use for these mathematical operations and is abbreviated to op-amp. With the addition of suitable external feedback components, the modern day op-amp can be used for a variety of applications, such as ac and dc signal amplification, active filters, oscillators, comparators, regulators and others
 
 ### Internal Functional Blocks
 
@@ -48,13 +49,15 @@ An operational amplifier (Op-Amp) is a high gain differential amplifier that amp
 ---
 
 ## 📌 Ideal Characteristics
-
-- Infinite Voltage Gain  
-- Infinite Input Resistance  
-- Zero Output Resistance  
-- Infinite Bandwidth  
-- Infinite CMRR  
-- Zero Offset Voltage  
+Characteristics of an ideal op-amp:
+An ideal op-amp would exhibit the following electrical characteristics:
+• Infinite voltage gain A.
+• Infinite input resistance Ri, so that almost any signal source can drive it and there is no loading of the preceding stage.
+• Zero output resistance Ro, so that the output can drive an infinite number of other devices.
+• Zero output voltage when input voltage is zero.
+• Infinite bandwidth, so that any frequency signal from 0 to ∞ Hz can be amplified without attenuation.
+• Infinite common-mode rejection ratio (CMRR), so that the output common mode noise voltage is zero.
+• Infinite slew rate, so that output voltage changes occur simultaneously with input voltage changes.  
 
 ---
 

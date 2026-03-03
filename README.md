@@ -33,33 +33,92 @@ To study and determine the following parameters of IC 741 operational amplifier:
 
 ![Op amp Symbol Setup](op_amp_symbol.png.jpg.png)
 
-INTRODUCTION 
-An operational amplifier is a direct coupled high gain amplifier usually consisting of one or more differential amplifiers and followed by a level translator and an output stage. The output stage is generally a push-pull or push-pull complementary-symmetry pair. An operational amplifier is available as a single integrated circuit package.
-The operational amplifier is a versatile device that can be used to amplify dc as well as ac input signals and was originally designed for performing mathematical operations such as addition, subtraction, multiplication and integration. Thus, the word operational amplifier stems for its original use for these mathematical operations and is abbreviated to op-amp. With the addition of suitable external feedback components, the modern day op-amp can be used for a variety of applications, such as ac and dc signal amplification, active filters, oscillators, comparators, regulators and others
+## 📘 Theory – Introduction
+
+- An operational amplifier (Op-Amp) is a direct coupled high gain amplifier.
+
+- It usually consists of one or more differential amplifier stages.
+
+- These stages are followed by a level translator and an output stage.
+
+- The output stage is generally a push-pull or push-pull complementary-symmetry pair.
+
+- An operational amplifier is available as a single integrated circuit (IC) package.
+
+- It is a versatile device that can amplify both DC and AC input signals.
+
+- Originally, the Op-Amp was designed to perform mathematical operations such as:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Integration
+
+- Because of this function, it is called an "operational" amplifier and is abbreviated as Op-Amp.
+
+- With proper external feedback components, modern Op-Amps are used in many applications like:
+  - AC and DC signal amplification
+  - Active filters
+  - Oscillators
+  - Comparators
+  - Voltage regulators
+  - And other electronic circuits
 
 ### Internal Functional Blocks
 
 ![Block Diagram Setup](block_diagram.png.jpg.png)
 
-1. **Input Stage** – Differential amplifier with high input impedance  
-2. **Intermediate Stage** – Provides additional gain  
-3. **Level Shifting Stage** – Adjusts DC level  
-4. **Output Stage** – Push-pull amplifier with low output impedance  
+## 🔷 Internal Functional Blocks of Op-Amp
+
+1️⃣ **Input Stage**  
+- It is a differential amplifier.  
+- Provides high input impedance.  
+- Amplifies the difference between inverting and non-inverting inputs.  
+- Offers good Common Mode Rejection (CMRR).
+
+2️⃣ **Intermediate Stage**  
+- Provides additional voltage gain.  
+- Increases overall amplification of the signal.  
+- Improves signal strength before final output stage.
+
+3️⃣ **Level Shifting Stage**  
+- Adjusts the DC level of the signal.  
+- Ensures the output is centered around zero reference.  
+- Helps maintain proper biasing conditions.
+
+4️⃣ **Output Stage**  
+- Usually a push-pull amplifier.  
+- Provides low output impedance.  
+- Increases current driving capability.  
+- Delivers the final amplified output signal.
 
 ---
 
-## 📌 Ideal Characteristics
-Characteristics of an ideal op-amp:
-An ideal op-amp would exhibit the following electrical characteristics:
-• Infinite voltage gain A.
-• Infinite input resistance Ri, so that almost any signal source can drive it and there is no loading of the preceding stage.
-• Zero output resistance Ro, so that the output can drive an infinite number of other devices.
-• Zero output voltage when input voltage is zero.
-• Infinite bandwidth, so that any frequency signal from 0 to ∞ Hz can be amplified without attenuation.
-• Infinite common-mode rejection ratio (CMRR), so that the output common mode noise voltage is zero.
-• Infinite slew rate, so that output voltage changes occur simultaneously with input voltage changes.  
+## ⭐ Characteristics of an Ideal Op-Amp
 
----
+An ideal operational amplifier has the following properties:
+
+- **Infinite Voltage Gain (A)**  
+  The amplifier can amplify the input signal without any limit.
+
+- **Infinite Input Resistance (Ri)**  
+  It does not draw any current from the input source.  
+  So, there is no loading effect on the previous stage.
+
+- **Zero Output Resistance (Ro)**  
+  The output can supply current to any number of devices without voltage drop.
+
+- **Zero Output Voltage when Input is Zero**  
+  If the input voltage is zero, the output voltage will also be exactly zero.
+
+- **Infinite Bandwidth**  
+  It can amplify signals of any frequency from 0 Hz to infinity without reduction in gain.
+
+- **Infinite Common Mode Rejection Ratio (CMRR)**  
+  It completely rejects common-mode signals (noise present at both inputs).  
+  Only the difference between the inputs is amplified.
+
+- **Infinite Slew Rate**  
+  The output voltage changes instantly according to changes in input voltage.
 
 # 1️⃣ Input Bias Current (Inverting Terminal)
 

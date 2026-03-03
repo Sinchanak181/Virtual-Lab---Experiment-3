@@ -61,11 +61,9 @@ To study and determine the following parameters of IC 741 operational amplifier:
   - Voltage regulators
   - And other electronic circuits
 
-### Internal Functional Blocks
+## 🔷 Internal Functional Blocks of Op-Amp
 
 ![Block Diagram Setup](block_diagram.png.jpg.png)
-
-## 🔷 Internal Functional Blocks of Op-Amp
 
 1️⃣ **Input Stage**  
 - It is a differential amplifier.  

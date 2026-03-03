@@ -68,7 +68,7 @@ IB = Vo / Rf
 
 ### 🔽 Circuit Screenshot
 
-![Inverting Bias Current Setup](inverting_bias_current.png)
+![Inverting Bias Current Setup](inverting_bias_current.png.jpg)
 
 ---
 
@@ -86,7 +86,7 @@ Iio = Vo / Rf
 
 ### 🔽 Circuit Screenshot
 
-![Input Offset Current Setup](input_offset_current.png)
+![Input Offset Current Setup](input_offset_current.png.jpg)
 
 ---
 
@@ -107,7 +107,7 @@ Maximum Vio ≈ 6mV
 
 ### 🔽 Circuit Screenshot
 
-![Input Offset Voltage Setup](input_offset_voltage.png)
+![Input Offset Voltage Setup](input_offset_voltage.png.jpg)
 
 ---
 
@@ -135,9 +135,9 @@ SR = ΔV / Δt
 
 ### 🔽 Circuit Screenshot
 
-![Slew Rate Setup](slew_rate.png)
+![Slew Rate Setup](slew_rate.png.jpg)
 
-![Slew Rate Setup](slew_rate1.png)
+![Slew Rate Setup](slew_rate1.png.jpg)
 
 ---
 

@@ -48,6 +48,7 @@ To study and determine the following parameters of IC 741 operational amplifier:
   - Subtraction
   - Multiplication
   - Integration
+
 ![Op amp Symbol Setup](op_amp_symbol.png.jpg.png)
 
 - Because of this function, it is called an "operational" amplifier and is abbreviated as Op-Amp.

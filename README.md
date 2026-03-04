@@ -140,7 +140,7 @@ The pin configuration of IC 741 general purpose operational amplifier is shown i
 - **Pin 3 – Non-Inverting Input**
   - Input signal applied here produces an output of same polarity at Pin 6.
 
-- **Pin 4 – Negative Supply (VEE)**
+- **Pin 4 – Negative Supply (VCC)**
   - Connected to ground or negative voltage (typically -3V to -18V).
 
 - **Pin 7 – Positive Supply (VCC)**
@@ -171,7 +171,7 @@ IB₁ = Vo / Rf
 ### Step 5:
 Click on **"Result"** and enter the calculated value.
 ### Step 6:
-Click on **"Reset"** and proceed to measure the non-inverting bias current.
+Click on **"Reset"** and proceed to measure the inverting bias current.
 
 ### 🔽 Circuit Screenshot
 
@@ -305,7 +305,7 @@ The experimental values were reasonably close to the theoretical and datasheet v
 
 In this experiment, the characteristics and performance parameters of the IC 741 operational amplifier were studied in detail.
 
-We practically observed that:
+I practically observed that:
 
 - An op-amp does not behave ideally in real conditions.
 - Small bias currents flow into the input terminals.

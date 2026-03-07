@@ -182,7 +182,7 @@ Click on **"Reset"** and proceed to measure the inverting bias current.
 
 ## b) Measurement of Non-Inverting Bias Current (IB₂)
 
-![Non Inverting Bias Current](https://raw.githubusercontent.com/Sinchanak181/Virtual-Lab---Experiment-3/main/non_inverting_bias_current_pro.png)
+![Non Inverting Bias Current](https://raw.githubusercontent.com/Sinchanak181/Virtual-Lab---Experiment-3/main/noninverting_bias_current_pro.png)
 
 ### Step 1:
 Click on the **Components** button and place the required components.

@@ -157,7 +157,7 @@ The pin configuration of IC 741 general purpose operational amplifier is shown i
 
 ## a) Measurement of Inverting Bias Current (IB₁)
 
-![Inverting Bias Current](https://raw.githubusercontent.com/Sinchanak181/Virtual-Lab---Experiment-3/main/inverting_bias_current_pro.png.jpg)
+![Inverting Bias Current](https://raw.githubusercontent.com/Sinchanak181/Virtual-Lab---Experiment-3/main/inverting_bias_current_pro.png)
 
 ### Step 1:
 Click on the **Components** button and place all required components on the table.

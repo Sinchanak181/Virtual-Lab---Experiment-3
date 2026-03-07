@@ -199,7 +199,7 @@ Click on **"Result"** and enter the calculated value.
 
 ### 🔽 Circuit Screenshot
 
-![Non Inverting Bias Current](https://raw.githubusercontent.com/Sinchanak181/Virtual-Lab---Experiment-3/main/non_inverting_bias_current.png)
+![Non Inverting Bias Current](https://raw.githubusercontent.com/Sinchanak181/Virtual-Lab---Experiment-3/main/non_inverting_bias_current.png.jpg)
 
 ---
 # B. Measurement of Input Offset Current (Iio)
